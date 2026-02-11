@@ -1,0 +1,7 @@
+# GitHub Output Automation
+
+- The AAVA Axos GitHub File write tool is configured to deliver all code and documentation to the 'develop' branch.
+- On each successful build/test, code is packaged and pushed.
+- For troubleshooting, see logs in /logs or consult support.
+
+---
