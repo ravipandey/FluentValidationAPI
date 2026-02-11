@@ -1,0 +1,24 @@
+# User API
+
+## Setup
+- Prerequisites: .NET 6+, SQLite.
+- Clone repo, run `dotnet restore`
+- Run `dotnet ef database update` to apply migrations.
+- Start with `dotnet run`
+
+## API Usage
+- Obtain JWT via `/api/auth/login` (use username: admin, password: password for demo).
+- Use JWT in `Authorization: Bearer <token>` header for all `/api/users` requests.
+- API docs at `/swagger`
+
+## DB Migrations
+- Add migration: `dotnet ef migrations add <Name>`
+- Update DB: `dotnet ef database update`
+
+## Testing
+- Run all tests: `dotnet test`
+
+## GitHub Integration
+- Code delivery is automated to the 'develop' branch via AAVA Axos tool. See /docs/INTEGRATION.md.
+
+---
