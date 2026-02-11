@@ -1,0 +1,7 @@
+# Test Results
+
+- All CRUD endpoints: PASS
+- JWT authentication: PASS
+- DB migration: PASS
+- Input validation: PASS
+- Error cases (404, 400): PASS
